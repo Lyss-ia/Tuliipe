@@ -4,7 +4,6 @@
     width: 80%;
     height: auto;
     margin-top: 1em;
-    color: black;
     font-family: 'Kanit', sans-serif;
 }
 
@@ -23,8 +22,8 @@ header{
     border-radius: 50%;
     overflow: hidden;
     position: absolute;
-    border: solid;
-    border-color: rgba(0, 0, 0, 0.10);
+    border: solid 1em;
+    border-color: rgba(0, 0, 0, 0);
 }
 
 #arcb1{
