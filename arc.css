@@ -9,12 +9,12 @@
 
 header{
     position: relative;
-    overflow: hidden;
-    height: 20%;
 }
 
 .arcfond{
     width: 100%;
+    overflow: hidden;
+    height: 10%;
     /* t'es adorable :)) */
 }
 
