@@ -25,7 +25,7 @@ header{
     border-radius: 50%;
     overflow: hidden;
     position: absolute;
-    border: solid 0.2em;
+    border: solid 2.5px;
     border-color: var(--background);
 }
 
@@ -41,7 +41,7 @@ header{
 
 #arcb3{
     bottom: 0;
-    left:3%;
+    left:5%;
 }
 
 .arctitle{
