@@ -82,6 +82,16 @@ article{
     font-size: 2em !important;
     text-align: center;
 }
+
+.arcdev{
+    height: 50%;
+    overflow: overlay;
+}
+
+.arcdev::-webkit-scrollbar{width:7px;}
+.arcdev::-webkit-scrollbar-track{background:rgba(255,255,255,0);}
+.arcdev::-webkit-scrollbar-thumb{background:rgba(255,255,255,0);}
+
 img{
     height: 100%;
 }
