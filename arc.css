@@ -5,6 +5,7 @@
     height: auto;
     margin-top: 1em;
     font-family: 'Kanit', sans-serif;
+    text-align: justify;
 }
 
 header{
@@ -66,7 +67,7 @@ article{
 .arcimgr{
     width: 200px;
     height: 200px;
-    border: solid;
+    border: solid 1px;
     float: right;
     margin-left: 0.5em;
     overflow: hidden;
@@ -85,7 +86,7 @@ article{
 }
 
 .arcdev{
-    height: 50%;
+    height: 500px;
     overflow: overlay;
 }
 
