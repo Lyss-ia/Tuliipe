@@ -93,5 +93,5 @@ article{
 .arcdev::-webkit-scrollbar-thumb{background:rgba(255,255,255,0);}
 
 img{
-    height: 100%;
+    width: 100%;
 }
