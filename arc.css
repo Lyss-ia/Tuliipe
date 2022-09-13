@@ -14,7 +14,7 @@ header{
 .arcfond{
     width: 100%;
     overflow: hidden;
-    height: 10%;
+    height: 300px;
     /* t'es adorable :)) */
 }
 
@@ -24,8 +24,8 @@ header{
     border-radius: 50%;
     overflow: hidden;
     position: absolute;
-    border: solid 1em;
-    border-color: rgba(0, 0, 0, 0);
+    border: solid 0.2em;
+    border-color: var(--background);
 }
 
 #arcb1{
