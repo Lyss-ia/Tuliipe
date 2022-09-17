@@ -19,7 +19,12 @@ header{
     /* t'es adorable :)) */
 }
 
+.imgcent{
+    width: 100%;
+}
+
 .arcbulle{
+    object-fit: cover;
     background-color: black;
     width: 100px;
     height: 100px;
@@ -94,7 +99,3 @@ article{
 .arcdev::-webkit-scrollbar{width:7px;}
 .arcdev::-webkit-scrollbar-track{background:rgba(255,255,255,0);}
 .arcdev::-webkit-scrollbar-thumb{background:rgba(255,255,255,0);}
-
-.arccontent img{
-    width: 100%;
-}
