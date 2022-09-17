@@ -14,13 +14,10 @@ header{
 
 .arcfond{
     width: 100%;
+    object-fit: cover;
     overflow: hidden;
     height: 300px;
     /* t'es adorable :)) */
-}
-
-.imgcent{
-    width: 100%;
 }
 
 .arcbulle{
@@ -73,6 +70,7 @@ article{
 .arcimgr{
     width: 200px;
     height: 200px;
+    object-fit: cover;
     border: solid 1px;
     float: right;
     margin-left: 0.5em;
