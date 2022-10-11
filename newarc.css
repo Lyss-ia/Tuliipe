@@ -59,9 +59,15 @@
     text-align: center;
 }
 
+#sk_a1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
 .title_arc{
     background-color:var(--arc_bleu);
-    width: 50%;
+    width: 45%;
     padding: 0.5em 1em;
     margin: 0;
 }
