@@ -49,6 +49,7 @@
 }
 
 .skills_arc{
+    color : white;
     margin: 0;
     margin-top: 1em;
     padding-top: 0.8em;
@@ -91,6 +92,7 @@
 }
 
 .padding_arc{
+    font-size: 14px;
     padding: 20px;
     margin: 0;
 }
