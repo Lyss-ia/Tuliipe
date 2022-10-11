@@ -16,6 +16,10 @@
     
 }
 
+img_arc_trs{
+    object-fit: cover;
+}
+
 .centre_arc{
     margin: 1em 0;
     display: grid;
