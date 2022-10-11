@@ -1,0 +1,17 @@
+.content_arc{
+    margin: auto;
+    width: 95%;
+    color: white;
+}
+
+.image_arc{
+    border-top: solid 7px rgb(62, 157, 236);
+    border-bottom: solid  7px rgb(62, 157, 236);
+    
+}
+
+.text_arc{
+    padding: 20px;
+    background-color: black;
+    border-bottom: solid  7px rgb(62, 157, 236);
+}
