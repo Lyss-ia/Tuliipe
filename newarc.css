@@ -16,8 +16,9 @@
     
 }
 
-img_arc_trs{
+.img_arc_trs{
     object-fit: cover;
+    width: 100%;
 }
 
 .centre_arc{
@@ -96,7 +97,7 @@ img_arc_trs{
 }
 
 .padding_arc{
-    font-size: 14px;
+    font-size: 14px!important;
     padding: 20px;
     margin: 0;
 }
