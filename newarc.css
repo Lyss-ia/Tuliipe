@@ -65,6 +65,18 @@
 
 }
 
+#sk_a2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+
+#sk_a3{
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+}
+
 .title_arc{
     background-color:var(--arc_bleu);
     width: 45%;
