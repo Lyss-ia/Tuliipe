@@ -44,7 +44,7 @@
     grid-row-start: 1;
     grid-row-end: 4;
     width: 100%;
-    /* max-height: 320px; */
+    max-height: 320px;
     object-fit: cover;
 }
 
