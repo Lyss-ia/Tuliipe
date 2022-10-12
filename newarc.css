@@ -92,7 +92,7 @@
 }
 
 .title_arc{
-    background-color:var(--arc_bleu);
+    background-color:var(--arc_color);
     width: 45%;
     padding: 0.5em 1em;
     margin: 0;
