@@ -10,7 +10,6 @@
 .content_arc{
     margin: auto;
     width: 95%;
-    color: #fdf0de;
     --border_arc : solid 10px var(--arc_color) ;
 }
 
@@ -60,15 +59,15 @@
 }
 
 .skills_arc{
-    color : #fdf0de;
     margin: 0;
     margin-top: 17px;
     padding-top: 0.8em;
     background-color: var(--arc_color);
     grid-column-start: 3;
     grid-column-end:4;
+    font-size: 0.9em;
     width: 100%;
-    height: 60%;
+    height: 50%;
     text-align: center;
 }
 
