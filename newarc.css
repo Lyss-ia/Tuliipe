@@ -3,7 +3,7 @@
 }
 
 #arc_fairies{
-    --arc_color: pink;
+    --arc_color: rgb(206, 88, 108);
 }
 
 #arc_vodoo{
@@ -16,6 +16,10 @@
 
 #arc_metamorphosis{
     --arc_color : rgb(71,126,77);
+}
+
+#arc_bloodmagic{
+    --arc_color : rgb(142,52,49);
 }
 
 .content_arc{
