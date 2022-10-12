@@ -11,6 +11,10 @@
     --arc_color: rgb(174,102,54); 
 }
 
+#arc_enchantement{
+    --arc_color : rgb(104,58,118);
+}
+
 .content_arc{
     margin: auto;
     width: 95%;
