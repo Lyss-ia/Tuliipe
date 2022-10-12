@@ -1,10 +1,17 @@
+#arc_divination{
+    --arc_color: rgb(62, 157, 236);
+
+}
+
+#arc_fairies{
+    --arc_color: pink;
+}
+
 .content_arc{
     margin: auto;
     width: 95%;
     color: white;
-
-    --arc_bleu : rgb(62, 157, 236);
-    --border_arc : solid 10px var(--arc_bleu) ;
+    --border_arc : solid 10px var(--arc_color) ;
 }
 
 .img_arc{
@@ -17,7 +24,7 @@
 }
 
 .img_arc_trs{
-    margin:1em 0;
+    margin: 0;
     width: 100%;
     object-fit: contain;
 }
@@ -32,7 +39,7 @@
 }
 
 .img_map_arc{
-    margin-top: 1em;
+    margin-top: 17px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -56,9 +63,9 @@
 .skills_arc{
     color : white;
     margin: 0;
-    margin-top: 1em;
+    margin-top: 17px;
     padding-top: 0.8em;
-    background-color: var(--arc_bleu);
+    background-color: var(--arc_color);
     grid-column-start: 3;
     grid-column-end:4;
     width: 100%;
@@ -89,6 +96,7 @@
     width: 45%;
     padding: 0.5em 1em;
     margin: 0;
+    font-size: 1.2em;
 }
 
 .text_arc{
@@ -97,6 +105,7 @@
 }
 
 .padding_arc{
+    font-size: 15;
     padding: 20px;
     margin: 0;
 }
