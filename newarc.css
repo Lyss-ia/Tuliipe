@@ -77,7 +77,7 @@
 .skills_arc{
     margin: 0;
     margin-top: 17px;
-    padding-top: 0.8em;
+    padding-top: 0.7em;
     background-color: var(--arc_color);
     color: #fdf0de;
     grid-column-start: 3;
