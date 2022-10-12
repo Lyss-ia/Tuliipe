@@ -1,6 +1,5 @@
 #arc_divination{
     --arc_color: rgb(19,102,162);
-
 }
 
 #arc_fairies{
@@ -13,6 +12,10 @@
 
 #arc_enchantement{
     --arc_color : rgb(104,58,118);
+}
+
+#arc_metamorphosis{
+    --arc_color : rgb(71,126,77);
 }
 
 .content_arc{
