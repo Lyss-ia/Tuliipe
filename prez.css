@@ -99,6 +99,7 @@
     align-items:flex-start;
     max-width:658px;
     width:100%;
+
 }
 
 .prez_prof{
@@ -120,6 +121,7 @@
     background:#cae3e8;
     border-bottom:1px solid #b7c6c9;
     color:#000;
+    margin-right:1em;
 }
 
 .prez_repsr{
@@ -136,7 +138,7 @@
     margin-bottom: 1em!important;
     width:100%;
     height:30px;
-    margin:10px auto 0;
+    margin: 0 auto ;
     background:#b7c6c9;
     text-align:right;
     line-height:1;
@@ -160,7 +162,7 @@
     flex-wrap:wrap;
     justify-content:center;
     align-items:center;
-    /* column-gap:2%; */
+    column-gap:2%;
 }
 
 .prez_picplaceorder{
@@ -200,7 +202,7 @@
 }
 
 .size47{
-    width:45%;
+    width:47%;
 }
 
 .prez_float{
