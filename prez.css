@@ -149,8 +149,8 @@
     color:#b7c6c9;
     padding:0 10px;
     margin:0 10px;
-    font-size:30px;
-    font-weight:bold;
+    font: size 30px!important;;
+    font-weight:bold!important;
 }
 
 .prez_cate{
