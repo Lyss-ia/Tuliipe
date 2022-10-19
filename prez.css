@@ -145,7 +145,7 @@
 
 .prez_line_text{
     text-decoration:none;
-    background:#fff;
+    background:var(--background);
     color:#b7c6c9;
     padding:0 10px;
     margin:0 10px;
