@@ -58,6 +58,8 @@
     grid-row-end:9;
     background:#aaa;
     object-fit: cover;
+    outline: 10px solid var(--background);
+    outline-top:none;
 }
 
 .lignes_prez{
@@ -159,7 +161,7 @@
     flex-wrap:wrap;
     justify-content:center;
     align-items:center;
-    column-gap:7%;
+    column-gap:2%;
 }
 
 .prez_picplaceorder{
