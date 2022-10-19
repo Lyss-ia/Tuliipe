@@ -9,6 +9,7 @@
     flex-wrap:wrap;
     justify-content:flex-start;
     align-items:flex-start;
+    word-wrap: 0;
 }
 
 .prez_size{
@@ -159,7 +160,7 @@
     flex-wrap:wrap;
     justify-content:center;
     align-items:center;
-    column-gap:2%;
+    /* column-gap:2%; */
 }
 
 .prez_picplaceorder{
