@@ -161,7 +161,7 @@
     flex-wrap:wrap;
     justify-content:center;
     align-items:center;
-    column-gap:2%;
+    /* column-gap:2%; */
 }
 
 .prez_picplaceorder{
