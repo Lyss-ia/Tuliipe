@@ -48,6 +48,7 @@
     grid-row-start:1;
     grid-row-end:5;
     background:rgb(61, 44, 44); 
+    outline: 10px solid var(--background);
     object-fit: cover;
 }
 
@@ -59,7 +60,6 @@
     background:#aaa;
     object-fit: cover;
     outline: 10px solid var(--background);
-    outline-top:none;
 }
 
 .lignes_prez{
@@ -95,7 +95,6 @@
     text-align:justify;
     display:flex;
     flex-wrap:wrap;
-    justify-content:space-around;
     align-items:flex-start;
     max-width:658px;
     width:100%;
@@ -200,7 +199,7 @@
 }
 
 .size47{
-    width:47%;
+    width:45%;
 }
 
 .prez_float{
