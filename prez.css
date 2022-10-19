@@ -9,7 +9,7 @@
     flex-wrap:wrap;
     justify-content:flex-start;
     align-items:flex-start;
-    word-wrap: 0;
+    word-spacing: 0;
 }
 
 .prez_size{
