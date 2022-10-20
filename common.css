@@ -23,9 +23,16 @@
 }
 
 
+.content_common{
+
+    margin: auto;
+    width: 95%;
+    --border_arc : solid 10px var(--arc_color) ;
+}
+
 .title_common{
     background-color:var(--arc_color);
-    width: 100%;
+    width: 45%;
     padding: 1% 20px;
     margin: 0;
     font-size: 0.85em;
