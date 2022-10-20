@@ -1,0 +1,42 @@
+#arc_divination{
+    --arc_color: rgb(19,102,162);
+}
+
+#arc_fairies{
+    --arc_color: rgb(206, 88, 108);
+}
+
+#arc_vodoo{
+    --arc_color: rgb(174,102,54); 
+}
+
+#arc_enchantement{
+    --arc_color : rgb(104,58,118);
+}
+
+#arc_metamorphosis{
+    --arc_color : rgb(71,126,77);
+}
+
+#arc_bloodmagic{
+    --arc_color : rgb(142,52,49);
+}
+
+
+.title_common{
+    background-color:var(--arc_color);
+    width: 100%;
+    padding: 1% 20px;
+    margin: 0;
+    font-size: 0.85em;
+    color:#fdf0de;
+}
+
+.img_common{
+    --border_arc : solid 10px var(--arc_color) ;
+    border-top: var(--border_arc) ;
+    border-bottom: var(--border_arc);
+    object-fit: cover;
+    background-color: black;
+    width: 100%;
+}
