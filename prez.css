@@ -103,7 +103,7 @@
 .prez_catetitle, .prez_blocwh, .prez_blocbl{
     background-color: var(--arc_color);
     position: absolute;
-    margin: 0;
+    margin: 0!important;
     text-align: center;
     top: -25px;
     padding: 0.5em 0;
