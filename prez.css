@@ -73,7 +73,7 @@
     position: relative;
     margin: 3em 0;
     border-top: solid 3px ;
-    padding-top: 3em;
+    padding-top: 2em;
 
 }
 #prez_bloc1{
@@ -133,6 +133,10 @@
 
 #prez_end{
     border-bottom: solid 3px;
+}
+
+.prez_cate h3{
+    margin: 0;
 }
 
 
