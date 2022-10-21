@@ -1,0 +1,135 @@
+html{
+    width: 800px;
+    margin: auto;
+    background-color: #242c40;
+}
+#arc_default{
+    --arc_color:rgb(240, 221, 199);
+}
+.prez_global{
+    color: var(--arc_color);
+    padding: 1em 0;
+    border-top: solid 10px;
+}
+header{
+    display: grid;
+    height: 50%;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    gap: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.prez_pic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#prez_pic1{
+    grid-row-start:1;
+    grid-row-end:3 ; 
+}
+#prez_pic2{
+    grid-column-start:2;
+    grid-column-end:4 ; 
+    grid-row-start:1;
+    grid-row-end:2 ; 
+}
+#prez_pic3{
+    grid-column-start:2;
+    grid-column-end:3 ; 
+    grid-row-start:2;
+    grid-row-end:3 ; 
+}
+#prez_pic4{
+    grid-column-start:3;
+    grid-column-end:4 ; 
+    grid-row-start:2;
+    grid-row-end:3; 
+}
+
+#prez_pictrs{
+    width: 33%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    object-fit: contain;
+}
+.prez_content{
+    background-color: black;
+    font-size: 0.9em !important;
+    padding: 0 20px;
+    margin: 0;
+    padding-bottom: 1.5em;
+}
+.prez_catethree{
+    margin-top:1em;
+    display: grid;
+    min-height: 35%;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+
+}
+.prez_bloc{
+    position: relative;
+    margin: 3em 0;
+    border-top: solid 3px ;
+    padding-top: 3em;
+
+}
+#prez_bloc1{
+    grid-column-start:1;
+    grid-column-end:2 ; 
+}
+#prez_bloc2{
+    grid-column-start:2;
+    grid-column-end:3 ; ;
+}
+#prez_bloc3{
+    grid-column-start:3;
+    grid-column-end:4 ; 
+}
+.prez_cate{
+    border-top: solid 3px;
+    position: relative;
+    padding: 2em 0;
+
+}
+.prez_catetitle, .prez_blocwh, .prez_blocbl{
+    background-color: var(--arc_color);
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    top: -25px;
+    padding: 0.5em 0;
+}
+
+.prez_catetitle{
+    width: 25%;
+    color: black;
+    left: 37%;
+
+}
+
+.prez_blocwh{
+    width: 80%;
+    color: black;
+    left: 10%;
+}
+
+.prez_blocbl{
+    min-width: 80%;
+    width: auto;
+    background-color: black;
+    color: var(--arc_color);
+    border: solid 1px;
+    left: 10%;
+}
+
+#prez_end{
+    border-bottom: solid 3px;
+}
+
+
+
