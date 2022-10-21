@@ -30,9 +30,18 @@
     --border_arc : solid 10px var(--arc_color) ;
 }
 
-.title_common{
+.title_common_S{
     background-color:var(--arc_color);
     width: 45%;
+    padding: 1% 20px;
+    margin: 0;
+    font-size: 0.85em;
+    color:#fdf0de;
+}
+
+.title_common_L{
+    background-color:var(--arc_color);
+    width: 95%;
     padding: 1% 20px;
     margin: 0;
     font-size: 0.85em;
