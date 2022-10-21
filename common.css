@@ -27,7 +27,6 @@
 }
 
 .content_common{
-
     margin: auto;
     width: 95%;
     --border_arc : solid 10px var(--arc_color) ;
@@ -39,7 +38,7 @@
     padding: 1% 20px;
     margin: 0;
     font-size: 0.85em;
-    color:#fdf0de;
+    color:black;
 }
 
 .title_common_L{
@@ -48,7 +47,7 @@
     padding: 1% 20px;
     margin: 0;
     font-size: 0.85em;
-    color:#fdf0de;
+    color:black;
 }
 
 .img_common{
