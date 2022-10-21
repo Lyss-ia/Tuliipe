@@ -22,6 +22,9 @@
     --arc_color : rgb(142,52,49);
 }
 
+#arc_default{
+    --arc_color:rgb(240, 221, 199);
+}
 
 .content_common{
 
