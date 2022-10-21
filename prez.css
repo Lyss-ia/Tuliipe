@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 #arc_default{
     --arc_color:rgb(240, 221, 199);
 }
@@ -5,6 +7,7 @@
     color: var(--arc_color);
     padding: 1em 0;
     border-top: solid 10px;
+    font-family:'PT Sans', sans-serif;
 }
 header{
     display: grid;
