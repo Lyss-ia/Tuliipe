@@ -9,9 +9,9 @@
     border-top: solid 10px;
     font-family:'PT Sans', sans-serif;
 }
-header{
+.prez_picholder{
     display: grid;
-    height: 50%;
+    height: 40%;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 50% 50%;
     gap: 10px;
