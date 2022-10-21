@@ -41,7 +41,7 @@
 
 .title_common_L{
     background-color:var(--arc_color);
-    width: 90%;
+    width: auto;
     padding: 1% 20px;
     margin: 0;
     font-size: 0.85em;
