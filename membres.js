@@ -7,6 +7,7 @@ $(document).ready(function() {
       percentPosition: false 
     });
     $(".option-set a").click(function(e) {
+      e.preventDefault();
       var $this = $(this); // cache the clicked link
       var filterAttr = "data-filter-value";
       var filterValue = $this.attr(filterAttr); // cache the filter
