@@ -117,7 +117,7 @@ i, em { font-style:italic; }
 /*-- header --*/
  
 .members_header {
-    margin:100px auto 50px;
+    margin:0 auto 50px;
     width:300px;
     text-align:center;
 }
@@ -252,12 +252,12 @@ i, em { font-style:italic; }
 
 /*-- scrollbar --*/
  
-.member_t::-webkit-scrollbar {  
+.memberS_t::-webkit-scrollbar {  
     width:1px;  
     height:2px;
 }  
  
-.member_t::-webkit-scrollbar-thumb { background-color:#aaa; } /* scrollbar colour */
+.memberS_t::-webkit-scrollbar-thumb { background-color:#aaa; } /* scrollbar colour */
  
 /*-- credit - DO NOT TOUCH --*/
  
