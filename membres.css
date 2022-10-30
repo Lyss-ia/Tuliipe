@@ -250,4 +250,9 @@ i, em { font-style:italic; }
     transform:translateY(-50%);
 }
  
+/*-- credit - DO NOT TOUCH --*/
+ 
+.members_credit a {
+    position:right;
+}
  
