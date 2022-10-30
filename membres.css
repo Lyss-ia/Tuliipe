@@ -249,6 +249,15 @@ i, em { font-style:italic; }
     margin-top:calc(20% + 25px);
     transform:translateY(-50%);
 }
+
+/*-- scrollbar --*/
+ 
+.member_t::-webkit-scrollbar {  
+    width:1px;  
+    height:2px;
+}  
+ 
+.member_t::-webkit-scrollbar-thumb { background-color:#aaa; } /* scrollbar colour */
  
 /*-- credit - DO NOT TOUCH --*/
  
