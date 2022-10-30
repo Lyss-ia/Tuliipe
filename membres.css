@@ -217,9 +217,9 @@ i, em { font-style:italic; }
  
 .members_url {
     position:absolute;
-    margin-left:155px;
+    margin-left:165px;
     height:25px;
-    width:125px;
+    width:115px;
     line-height:25px;
     text-align:center;
     background:#fff; /*url background colour */
