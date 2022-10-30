@@ -252,12 +252,12 @@ i, em { font-style:italic; }
 
 /*-- scrollbar --*/
  
-.memberS_t::-webkit-scrollbar {  
+.members_t::-webkit-scrollbar {  
     width:1px;  
     height:2px;
 }  
  
-.memberS_t::-webkit-scrollbar-thumb { background-color:#aaa; } /* scrollbar colour */
+.members_t::-webkit-scrollbar-thumb { background-color:#aaa; } /* scrollbar colour */
  
 /*-- credit - DO NOT TOUCH --*/
  
