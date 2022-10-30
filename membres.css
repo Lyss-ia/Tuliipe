@@ -28,15 +28,6 @@
 ::-moz-selection { background:#eee; color:#222; }
 ::selection { background:#eee; color:#222; }
  
-/*-- scrollbar --*/
- 
-::-webkit-scrollbar {  
-    width:1px;  
-    height:2px;
-}  
- 
-::-webkit-scrollbar-thumb { background-color:#aaa; } /* scrollbar colour */
- 
 /*-- tooltips --*/
  
 #s-m-t-tooltip {
@@ -54,17 +45,9 @@
     z-index:9999;
 }
  
-/*-- tumblr controls --*/
- 
-.tmblr-iframe, .iframe-controls–desktop {
-    display:none !important;
-}
- 
 /*-- general customisation --*/
  
 .members_body {
-    color:#666; /* text colour */
-    background-color:#fff; /* background colour */
     font-style:normal; 
     font-family:'Open Sans', helvetica, sans-serif; 
     font-size:10px; 
