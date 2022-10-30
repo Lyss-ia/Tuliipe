@@ -253,6 +253,6 @@ i, em { font-style:italic; }
 /*-- credit - DO NOT TOUCH --*/
  
 .members_credit a {
-    position:right;
+    text-align:right;
 }
  
