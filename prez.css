@@ -55,7 +55,7 @@
     object-fit: contain;
 }
 .prez_content{
-    background-color: black;
+    background-color: #231f20;
     font-size: 0.9em !important;
     padding: 0 20px;
     margin: 0;
@@ -111,21 +111,21 @@
 
 .prez_catetitle{
     width: 25%;
-    color: black;
+    color: #231f20;
     left: 37%;
 
 }
 
 .prez_blocwh{
     width: 80%;
-    color: black;
+    color: #231f20;
     left: 10%;
 }
 
 .prez_blocbl{
     min-width: 80%;
     width: auto;
-    background-color: black;
+    background-color: #231f20;
     color: var(--arc_color);
     border: solid 1px;
     left: 10%;
