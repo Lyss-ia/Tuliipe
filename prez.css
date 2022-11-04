@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-
-html{
-    width: 800px;
-    margin: auto;
-    background-color: #1c171d;
-}
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 
 #arc_default{
     --arc_color:rgb(240, 221, 199);
@@ -62,6 +57,7 @@ html{
     position: absolute;
     bottom: 10px;
     left: 0;
+    font-family: 'Paytone One', sans-serif;
 }
 .prez_content{
     font-size: 0.9em !important;
@@ -93,7 +89,6 @@ html{
 .prez_catetitle_S{
     padding: 1% 0;
     margin: 0;
-    margin-bottom: 1em;
     border-bottom: solid;
 }
 
