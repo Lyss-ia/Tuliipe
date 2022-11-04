@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
+html{
+    width: 800px;
+    margin: auto;
+    background-color: #1c171d;
+}
+
 #arc_default{
     --arc_color:rgb(240, 221, 199);
 }
@@ -17,6 +23,7 @@
     gap: 10px;
     overflow: hidden;
     position: relative;
+    margin-bottom: 50px;
 }
 .prez_pic{
     width: 100%;
@@ -49,95 +56,51 @@
 
 #prez_pictrs{
     width: 33%;
+    height: auto;
+    text-align: center;
+    text-shadow:1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;;
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     left: 0;
-    object-fit: contain;
 }
 .prez_content{
-    background-color: #231f20;
     font-size: 0.9em !important;
     padding: 0 20px;
     margin: 0;
     padding-bottom: 1.5em;
 }
-.prez_catethree{
-    margin-top:1em;
-    display: grid;
-    min-height: 35%;
-    grid-template-columns: 33% 33% 33%;
-    text-align: center;
 
-}
-.prez_bloc{
-    position: relative;
-    margin: 3em 0 2em 0;
-    border-top: solid 3px ;
-    padding-top: 2em;
-
-}
-#prez_bloc1{
-    grid-column-start:1;
-    grid-column-end:2 ; 
-    grid-row-start:1;
-    grid-row-end:2 ; 
-}
-#prez_bloc2{
-    grid-column-start:2;
-    grid-column-end:3 ;
-    grid-row-start:1;
-    grid-row-end:2 ; 
-}
-#prez_bloc3{
-    grid-column-start:3;
-    grid-column-end:4 ; 
-    grid-row-start:1;
-    grid-row-end:2 ; 
-}
 .prez_cate{
     border-top: solid 3px;
     position: relative;
-    padding: 2em;
-
+    padding: 2.5em 0;
 }
 .prez_catetitle, .prez_blocwh, .prez_blocbl{
+    color: #1c171d;
     background-color: var(--arc_color);
     position: absolute;
     margin: 0!important;
     text-align: center;
-    top: -25px;
+    top: -30px;
     padding: 0.5em 0;
 }
 
 .prez_catetitle{
     width: 25%;
-    color: #231f20;
     left: 37%;
-
 }
 
-.prez_blocwh{
-    width: 80%;
-    color: #231f20;
-    left: 10%;
-}
-
-.prez_blocbl{
-    min-width: 80%;
-    width: auto;
-    background-color: #231f20;
-    color: var(--arc_color);
-    border: solid 1px;
-    left: 10%;
+.prez_catetitle_S{
+    padding: 1% 0;
+    margin: 0;
+    margin-bottom: 1em;
+    border-bottom: solid;
 }
 
 #prez_end{
     border-bottom: solid 3px;
 }
 
-.prez_cate h3{
-    margin: 0;
-}
 
 
 
