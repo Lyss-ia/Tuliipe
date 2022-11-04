@@ -9,6 +9,8 @@
     padding: 1em 0;
     border-top: solid 10px;
     font-family:'PT Sans', sans-serif;
+    width: 600px;
+    margin: auto;
 }
 .prez_picholder{
     display: grid;
@@ -77,13 +79,13 @@
     position: absolute;
     margin: 0!important;
     text-align: center;
-    top: -30px;
+    top: -27px;
     padding: 0.5em 0;
 }
 
 .prez_catetitle{
     width: 25%;
-    left: 37%;
+    left: 39%;
 }
 
 .prez_catetitle_S{
