@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="https://lyss-ia.github.io/Tuliipe/prez.css"><div class="prez_global" id="arc_default"><header class="prez_picholder"><img src="https://cdn.discordapp.com/attachments/839269329190912041/1039243978857529425/image1.jpg" alt="HAUT GAUCHE" class="prez_pic" id="prez_pic1">
+<img src="https://cdn.discordapp.com/attachments/839269329190912041/1039243979146928148/image2.jpg" alt="HAUT DROITE" class="prez_pic" id="prez_pic2">
+<img src="https://cdn.discordapp.com/attachments/839269329190912041/1039243979394400336/image3.jpg" alt="BAS GAUCHE" class="prez_pic" id="prez_pic3">
+<img src="https://cdn.discordapp.com/attachments/839269329190912041/1039243979675414649/image4.jpg" alt="BAS DROITE" class="prez_pic" id="prez_pic4"><div id="prez_pictrs">NOM PRENOM</div></header><h3>
+[center]MAGIE[/center]
+</h3><div class="prez_cate">[color=#F0B950]Né(e) le :[/color] 
+[color=#F0B950]Ascendance :[/color] 
+[color=#F0B950]Spé 1 :[/color] 
+[color=#F0B950]Spé 2 :[/color] NE RIEN METTRE
+[color=#F0B950]Lieux de résidence :[/color] 
+[color=#F0B950]Occupation :[/color] 
+[color=#F0B950]Statut :[/color] 
+[color=#F0B950]Taille :[/color] 
+[color=#F0B950]Yeux :[/color] 
+[color=#F0B950]Cheveux :[/color] 
+[color=#F0B950]Silhouette :[/color] 
+[color=#F0B950]Autre :[/color] 
+</div><div class="prez_cate"><h2 class="prez_catetitle">Caractère</h2> <h3 class="prez_catetitle_S">Ce qu'on dit de lui</h3>
+
+
+<h3 class="prez_catetitle_S">Qui il est vraiment </h3>
+
+</div><div class="prez_cate"><h2 class="prez_catetitle">Histoire</h2>
+<h3>ORIGINES :</h3>
+     
+<h3>ENFANCE ET SCOLARITÉ :</h3>
+
+<h3>SPÉCIALITÉ / MAGIE :</h3>
+   
+<h3>VIE PERSONNELLE :</h3>
+
+</div><div class="prez_cate" id="prez_end"><h2 class="prez_catetitle">Toi</h2>
+[color=#F0B950]Pseudo ►[/color] 
+[color=#F0B950]Âge ►[/color] 
+[color=#F0B950]Comment as-tu connu le forum ? ►[/color] 
+[color=#F0B950]Un commentaire ? ►[/color] 
+
+</div></div>
