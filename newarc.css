@@ -22,6 +22,10 @@
     --arc_color : rgb(142,52,49);
 }
 
+#arc_mermaids{
+    --arc_color : rgb(127,255,212); 
+}
+
 .content_arc{
     margin: auto;
     width: 95%;
