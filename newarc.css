@@ -112,16 +112,23 @@
 
 .title_arc{
     background-color:var(--arc_color);
-    width: 45%;
+    width: auto;
     padding: 1% 20px;
     margin: 0;
     font-size: 0.85em;
     color:#fdf0de;
 }
 
+.title_common_S{
+    padding: 1% 20px;
+    margin: 0;
+    font-size: 0.85em;
+    border-bottom: solid;
+}
+
 .text_arc{
-    background-color: black;
     border-bottom: var(--border_arc);
+    text-align: justify;
 }
 
 .padding_arc{
