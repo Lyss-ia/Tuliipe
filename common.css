@@ -1,29 +1,21 @@
-#arc_divination{
-    --arc_color: rgb(19,102,162);
+#wizards{
+    --arc_color: rgb(221 160 221);
 }
 
-#arc_fairies{
-    --arc_color: rgb(206, 88, 108);
+#fairies{
+    --arc_color: rgb(219, 112, 147);
 }
 
-#arc_vodoo{
-    --arc_color: rgb(174,102,54); 
-}
-
-#arc_enchantement{
-    --arc_color : rgb(104,58,118);
-}
-
-#arc_metamorphosis{
-    --arc_color : rgb(71,126,77);
-}
-
-#arc_bloodmagic{
+#humans{
     --arc_color : rgb(142,52,49);
 }
 
-#arc_default{
-    --arc_color:rgb(240, 221, 199);
+#default{
+    --arc_color: rgb(240, 221, 199);
+}
+
+#mermaid{
+    --arc_color: rgb(127 255 212);
 }
 
 .content_common{
