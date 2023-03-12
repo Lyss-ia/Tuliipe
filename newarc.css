@@ -1,13 +1,13 @@
 #wizards{
-    --arc_color: rgb(221 160 221);
+    --arc_color: rgb(131, 72, 133);
 }
 
 #fairies{
-    --arc_color: rgb(219, 112, 147);
+    --arc_color: rgb(188, 143, 143);
 }
 
 #humans{
-    --arc_color : rgb(142,52,49);
+    --arc_color : rgb(142,52, 49);
 }
 
 #default{
@@ -15,7 +15,7 @@
 }
 
 #mermaid{
-    --arc_color: rgb(127 255 212);
+    --arc_color: rgb(127, 255, 212);
 }
 
 .content_arc{
