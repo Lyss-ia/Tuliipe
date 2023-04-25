@@ -21,7 +21,7 @@
 .content_common{
     margin: auto;
     width: 95%;
-    --border_arc : solid 10px var(--arc_color) ;
+    --border_arc : solid 10px var(--arc_color);
 }
 
 .title_common_S{
@@ -41,7 +41,7 @@
 }
 
 .img_common{
-    --border_arc : solid 10px var(--arc_color) ;
+    --border_arc : solid 10px var(--arc_color);
     border-top: var(--border_arc) ;
     border-bottom: var(--border_arc);
     object-fit: cover;
