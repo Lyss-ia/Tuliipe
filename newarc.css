@@ -14,9 +14,14 @@
     --arc_color: rgb(240, 221, 199);
 }
 
-#mermaid{
+#mermaids{
     --arc_color: rgb(127, 255, 212);
 }
+
+#dark_minders{
+    --arc_color: rgb(178, 211, 194);
+}
+
 
 .content_arc{
     margin: auto;
