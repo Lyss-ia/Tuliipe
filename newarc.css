@@ -21,11 +21,11 @@
 .content_arc{
     margin: auto;
     width: 95%;
-    --border_arc : solid 10px var(--arc_color) ;
+    --border_arc : solid 10px var(--arc_color);
 }
 
 .img_arc{
-    border-top: var(--border_arc) ;
+    border-top: var(--border_arc);
     border-bottom: var(--border_arc);
     object-fit: cover;
     background-color: black;
