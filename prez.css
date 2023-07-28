@@ -100,10 +100,6 @@ body{background-color:#1C171D;}
     padding: 1em 0;
 }
 
-/* #prez_start{
-    border-bottom: solid 3px;
-} */
-
 #prez_end{
     border-bottom: solid 3px;
 }
@@ -122,4 +118,3 @@ td{
     overflow-x: hidden;
     padding: 1em;
 }
-tr,table{height:100;}
