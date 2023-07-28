@@ -85,7 +85,7 @@ body{background-color:#1C171D;}
 .prez_text{
     margin: 10px 0px 0px 10px;
     line-height: 20px;
-    height: 300px;
+    max-height: 300px;
     overflow-y: auto;
     overflow-x: hidden;
     padding: 1em 0;
@@ -94,7 +94,7 @@ body{background-color:#1C171D;}
 .prez_text_S{
     margin: 10px 0px 0px 10px;
     line-height: 20px;
-    height: 150px;
+    max-height: 150px;
     overflow-y: auto;
     overflow-x: hidden;
     padding: 1em 0;
