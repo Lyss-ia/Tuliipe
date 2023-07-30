@@ -1,0 +1,73 @@
+fl3mltitre {
+    width:500px; 
+    margin:auto; 
+    display:block; 
+    line-height:43px; 
+    text-align:center; 
+    margin-bottom:10px; 
+    padding-bottom:5px;
+} 
+fl3mlcont {
+    display:block; 
+    width:500px; 
+    margin:auto;
+} 
+fl3mllien {
+    display:inline-block; 
+    width:240px; 
+    margin:auto; 
+    margin:5px; 
+    vertical-align:top;
+} 
+fl3mlcontour {
+    display:inline-block; 
+    width:234px; 
+    height:120px; 
+    padding:2px;
+} 
+fl3mlimg {
+    display:inline-block; 
+    width:234px; 
+    height:120px; 
+    position:relative; 
+    overflow:hidden;
+} 
+fl3mlelien {
+    display:block; 
+    height:112px; 
+    width:226px; position:absolute; 
+    transition:all 1s ease; 
+    top:120px; left:2px; 
+    padding:2px; line-height:normal; 
+    text-align:justify; overflow:auto;
+} 
+fl3mllien:hover fl3mlelien {
+    transition:all 1s ease; 
+    top:2px; 
+    left:2px;
+} 
+fl3mllien nom {
+    width:240px; 
+    text-align:center; 
+    display:block;
+} 
+fl3mllien int {
+    display: inline-block; 
+    font-size: 10px; 
+    line-height: 9px; 
+    padding: 1px; 
+    margin-top: -19px; 
+    text-align: center; 
+    margin-left: auto; 
+    width: 100%;
+} 
+credit29 {
+    width:480px; 
+    display:block; 
+    font-family:monospace; 
+    font-size:11px; 
+    text-align:center; 
+    text-transform:uppercase; 
+    margin:auto; 
+    letter-spacing:1px;
+}
