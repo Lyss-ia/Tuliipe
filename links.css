@@ -39,7 +39,9 @@ fl3mlelien {
     transition:all 1s ease; 
     top:120px; left:2px; 
     padding:2px; line-height:normal; 
-    text-align:justify; overflow:auto;
+    text-align:justify; 
+    overflow-y:auto;
+    overflow-x:hidden;
 } 
 fl3mllien:hover fl3mlelien {
     transition:all 1s ease; 
