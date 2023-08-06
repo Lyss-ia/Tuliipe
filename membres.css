@@ -19,7 +19,7 @@
  
 .members_a {
     text-decoration:none;
-    color:var(--background); /* links colour */
+    color:var(--background)!important; /* links colour */
     transition-duration: 0.6s;  
     -moz-transition-duration: 0.6s;  
     -webkit-transition-duration: 0.6s;  
