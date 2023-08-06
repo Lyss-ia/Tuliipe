@@ -112,6 +112,7 @@ i, em { font-style:italic; }
     height:125px; /* image height */
     margin:20px;
     float:left;
+    font-size:0.8em;
 }
  
 .members_name {
