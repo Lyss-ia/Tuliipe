@@ -19,7 +19,7 @@
  
 .members_a {
     text-decoration:none;
-    color:#444; /* links colour */
+    color:var(--background); /* links colour */
     transition-duration: 0.6s;  
     -moz-transition-duration: 0.6s;  
     -webkit-transition-duration: 0.6s;  
@@ -72,7 +72,7 @@ i, em { font-style:italic; }
  
 .members_header {
     margin:0 auto 50px;
-    width:300px;
+    width:95%;
     text-align:center;
 }
  
@@ -128,6 +128,7 @@ i, em { font-style:italic; }
     height:125px; /* image height */
     margin:20px;
     float:left;
+    font-size:1.1em;
 }
  
 .members_name {
