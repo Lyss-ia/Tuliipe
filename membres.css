@@ -1,51 +1,5 @@
-@keyframes fadein {
-    from { opacity:0; }
-    to   { opacity:1; }
-}
- 
-@-moz-keyframes fadein {
-    from { opacity:0; }
-    to   { opacity:1; }
-}
- 
-@-webkit-keyframes fadein {
-    from { opacity:0; }
-    to   { opacity:1; }
-}
- 
-@-ms-keyframes fadein {
-    from { opacity:0; }
-    to   { opacity:1; }
-}
- 
-@-o-keyframes fadein {
-    from { opacity:0; }
-    to   { opacity:1; }
-}
- 
-/*-- selection --*/
- 
-::-moz-selection { background:#eee; color:#222; }
-::selection { background:#eee; color:#222; }
- 
-/*-- tooltips --*/
- 
-#s-m-t-tooltip {
-    color:#666;
-    background-color:#fafafa; 
-    font-size:8px;
-    font-family:'Open Sans', helvetica, sans-serif;
-    letter-spacing:1px;
-    text-transform:uppercase;
-    text-align:center;
-    position:absolute;
-    padding:0px 5px 0px 5px;
-    margin-top:30px;
-    border:1px solid #eee;
-    z-index:9999;
-}
- 
-/*-- general customisation --*/
+
+ /*-- general customisation --*/
  
 .members_body {
     font-style:normal; 
@@ -138,35 +92,28 @@ i, em { font-style:italic; }
     letter-spacing:1px;
     color:#000; /*title colour*/
 }
- 
-/*--filters--*/
- 
-#members_sort { margin-top:20px; }
- 
-#members_sort ul {
-    display:block;
-    list-style:none; 
-    padding-left:0px;
-    margin-top:0;
-    margin-bottom:0;
+
+.letters_links{
+    margin: auto;
+    margin-top:1em;
+    text-align: center;
+    font-family: Arial;
+    line-height: 16px;
 }
- 
-#members_sort li { display:inline; list-style:none; } 
-#members_sort li a.selected { font-weight:600; color:#222; } /* selected filter colour */
- 
-#members_sort a { 
-    display:inline; 
-    margin-right:10px; 
-    font-style:italic; 
-    text-transform:lowercase; 
+
+.letters_links a{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 5px 10px;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 11px;
+    line-height: 15px;
 }
- 
-#members_sort b { 
-    text-transform:uppercase; 
-    letter-spacing:0.5px; 
-    margin-right:10px; 
-}
- 
+
 /*-- content --*/
  
 #members_content {
@@ -249,15 +196,6 @@ i, em { font-style:italic; }
     margin-top:calc(20% + 25px);
     transform:translateY(-50%);
 }
-
-/*-- scrollbar --*/
- 
-.members_t::-webkit-scrollbar {  
-    width:1px;  
-    height:2px;
-}  
- 
-.members_t::-webkit-scrollbar-thumb { background-color:#aaa; } /* scrollbar colour */
  
 /*-- credit - DO NOT TOUCH --*/
  

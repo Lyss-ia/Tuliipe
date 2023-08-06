@@ -1,0 +1,546 @@
+<script type="text/javascript">
+$(document).ready(function(){$(".onglets_pa").each(function(){$(".lab").click(function(){$(this).addClass("visible").siblings().removeClass("visible");if($(this).hasClass("onglet1")){$(this).parent().parent().parent().parent().find(".onglet1").addClass("visible").siblings().removeClass("visible")}else if($(this).hasClass("onglet2")){$(this).parent().parent().parent().parent().find(".onglet2").addClass("visible").siblings().removeClass("visible")}else if($(this).hasClass("onglet3")){$(this).parent().parent().parent().parent().find(".onglet3").addClass("visible").siblings().removeClass("visible")}else if($(this).hasClass("onglet4")){$(this).parent().parent().next().find(".onglet4").addClass("visible").siblings().removeClass("visible")}else{$(this).parent().parent().next().find(".onglet5").addClass("visible").siblings().removeClass("visible")}})})});
+</script>
+
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+
+    /* PA */
+
+    :root {
+    --accc1: #FFD69E;
+    --accc2:#C79944;
+    --black: #000;
+    --border: #F7D7C3;
+    --background: #1c171d;
+    --degrag: #C79944;
+    --acc3:#FFD69E;  
+    --white: #fff;
+    --border1: 1px solid #F7D7C3;
+    --background1: #f1f1f1;
+    --background2: #1c171d;
+    --background3: #000000;
+    --degrade: linear-gradient(-45deg,#FFD69E,#C79944);
+    --gr1: rgb(131, 72, 133);
+    --gr2: rgb(188, 143, 143);
+    --gr3: rgb(127,255,212);
+    --gr4: rgb(142,52,49);
+    --gr5: rgb(178, 211, 194);
+    --fontcolor: #e1d9c3;
+}
+
+body{
+    background-color: var(--background);
+}
+
+/* DEBUT PA */
+
+/* Images du dessus */
+
+.pa_pictures {          
+    border-radius: 10px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 24% 50% 24%;
+    grid-template-rows: 150px;
+    overflow: hidden;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: var(--background);
+}
+
+.pa_picture{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#pa_picture1{
+    grid-column: 1;
+}
+
+#pa_picture2{
+    grid-column: 2;
+}
+
+#pa_picture3{
+    grid-column: 3;
+}
+
+/**************** CORPS DE LA PA AVEC GRID *****************/
+.pa_1 {          
+    border-radius: 10px;
+    display: grid;
+    text-align:center;
+    grid-gap: 7px;
+    grid-template-columns: 9% 15% 15% 28% 20% 9%;
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    height: 240px;
+    color: var(--fontcolor);
+    background-color: var(--background);
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px 10px 0;
+}
+
+
+/**************** PARTIE À GAUCHE (actualité/intrigue, staff, forum optimisé) *****************/
+
+/* CONTAINER ACTUALITÉ */
+.item_1 { 
+    border-radius: 4px;
+    grid-column-start:4;
+    grid-row-start:1;
+    grid-row-end:6 ; 
+    padding: 0px 4px;
+    text-align: justify;
+    overflow-y: auto;
+}
+
+
+/* PARTIE STAFF ET ONGLETS */
+
+/*container de la partie staff, ne pas toucher*/
+.item_2 {
+    grid-column-start:1;
+    grid-row-start:1;
+    grid-row-end:7;
+    background-image: url("https://cdn.discordapp.com/attachments/1007384247159492688/1135983556917739530/Circle_Education_Badge_Logo_6.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.item_3 {
+    border: 1px solid var(--accc2);
+    display: inline-block;
+    height: 192px;
+    line-height: 110%;
+    overflow: hidden;
+    padding: 3px;
+    grid-column-start:2;
+    background-image: url("https://cdn.discordapp.com/attachments/1007384247159492688/1135987100857159801/fond.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.onglet_js {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-columns: 39% 59%;
+    gap: 7px;
+}
+
+.png_admin{
+    height: 190px;
+    margin-left:-20px;
+}
+
+/*container des onglets*/
+.onglets_pa { 
+    position: relative;
+}
+
+.png_admin1{
+    margin-top: 5px;
+    margin-left: -5px;
+}
+
+.png_admin2 {
+    margin-top: -190px;
+    margin-left: -5px;
+}
+
+.png_admin3{
+    margin-top: -190px;
+    margin-left:-5px;
+}
+
+/*les boutons de la PA, ne pas toucher*/
+.onglets_pa .boutons_pa {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin:auto; /*éventuellement à modifier si vous ajoutez des images*/
+}
+
+/*décide de la largeur de la séparation entre les images*/
+
+.lab:hover {
+    opacity:0.8;
+}
+
+/*la partie avec prénom, nom, en gros les informations du staff*/
+.contenu {  
+    opacity: 0;
+    overflow: hidden;
+    scrollbar-width: none;
+    text-align: center;
+    visibility: hidden;
+}
+
+.contenu.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+/*balise de la partie admin / profil*/
+.titre_name {  
+    width: 9%;
+    margin-top: -40px;    
+    letter-spacing: 1px;
+    text-align: center;
+    position: absolute;
+    font-size: 12px;
+    line-height:1.3em;
+  
+}
+
+.megrim{
+    font-size: 15px;
+    font-family: 'Megrim', cursive;
+}
+
+.small_img{
+    height: 65px;
+    width: 65px;
+}
+
+
+/**************** PARTIE CENTRALE (contexte, liens navigation, règles *****************/
+
+
+/*CONTEXTE ET HOVER*/
+
+/* corps du contexte (container en gros qui tient tout*/
+.gif_pa {    
+    display: inline-block;
+    grid-column-start:5;
+    height: 192px;
+    line-height: 110%;
+    overflow: auto;
+    margin: auto;
+    padding: 3px;
+    } /* à modifier si vous modifiez la largeur de la grid */
+
+/*container de l'image du contexte*/
+.img_pa {
+    width: 100%;
+margin: 0 auto;
+position: relative;
+      overflow: hidden;
+  border-radius:7px;
+}
+
+/*taille de l'image dans le container, à modifier seulement si vous modifiez la taille de gif_pa*/
+.paimg {
+    display: block;
+    height: 192px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/*container du contexte, si vous modifiez la taille, alors n'oubliez pas de modifier le left et le top*/
+.container_txt {  background-color: var(--background);
+    color: var(--fontcolor);
+    height: 192px;
+    left: 108px;
+    line-height: 16px;
+    overflow: auto;
+    padding: 5px;
+    position: absolute;
+    scrollbar-width: none;
+    text-align: justify;
+    top: 96px;
+    transform: translate(-50%,-50%);
+    width: 206px;} /*à modifier si vous modifiez la largeur de gif_pa */
+
+/*ce qui déclenche le hover qui part vers le haut, ne pas toucher*/
+.overflow {
+background-color: var(--background);
+    bottom: 0;
+    height: 0;
+    left: 0;
+    overflow: hidden auto;
+    position: absolute;
+    scrollbar-width:none;
+    right: 0;
+    transition: .5s ease;
+    width: 100%;
+}
+.img_pa:hover .overflow {
+  height: 100%}
+
+/*pas de scroll dans la partie contexte // ne supprimez pas le overflow*/
+.container_txt::-webkit-scrollbar,.overflow::-webkit-scrollbar  {width:0px;height:0px;}
+
+
+/*PARTIE NAVIGATION / LIENS*/
+
+.item_4 {   
+    grid-column-start:3;
+    grid-row-start: 1;
+}
+
+/*liens navigation*/
+.link_pa {        
+    background-color: var(--accc2);
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform:uppercase;
+    margin-bottom: 6px;
+    line-height: 10px;
+    padding: 1px 0;
+}
+
+.link_pa a{        
+    color: var(--white);
+}
+
+/*container avec les règles*/
+.item_5 {       
+    height: 90px;
+    object-fit: cover;
+    margin: 4px 0 8px;
+}
+
+
+/**************** PARTIE DROITE *****************/
+
+
+.texte_1 {   height: 43px;
+    line-height: 13px;
+    overflow: auto;
+    text-align: justify;}
+
+.item_6 {  
+    grid-column-start: 4;
+    grid-row-start:6;
+}
+
+.select_pa {
+  margin-top: 3px;
+  border-width: 1px;
+  border-radius: 5px;
+  border: 1px solid var(--border);
+  width: 175px;
+  letter-spacing: 1px;
+  font-size: 8px;
+  text-transform: uppercase;}
+
+/*LES TITRES AVEC DÉGRADES*/
+
+.titre_1{
+   border-radius: 4px;
+    color: var(--white);
+    font-size: 9px;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.titre_1 {margin-bottom: 5px;background-image: linear-gradient(-45deg,var(--degrag),var(--accc2))!important;} /*dégradé rose*/
+
+a{
+    text-decoration: none;
+    color: var(--fontcolor);
+}
+
+w,y {font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform:uppercase;
+}
+
+w {  color: var(--accc2);}
+y {  color: var(--accc1);}
+
+/* VOTES */
+.item_7 {
+    grid-column-start:6;
+    grid-row-start:1;
+    grid-row-end:7;
+    background-image: url("https://cdn.discordapp.com/attachments/1007384247159492688/1135983556917739530/Circle_Education_Badge_Logo_6.png");
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/*PARTIE CRÉDITS / NE PAS TOUCHER */
+.item_8 {    
+    grid-column-start: 4;
+    grid-row-start:7;
+    font-size: 8px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    margin-top: 15px;
+    color: var(--acc3);
+    }
+</style>
+
+
+<div class="pa_pictures">
+    <img class="pa_picture" id="#pa_picture1" src="https://cdn.discordapp.com/attachments/1007384247159492688/1135983787868700733/legacy_s__black.gif">
+    <img class="pa_picture" id="#pa_picture2" src="https://cdn.discordapp.com/attachments/1007384247159492688/1135983613696020510/Creation_sans_titre.gif">
+    <img class="pa_picture" id="#pa_picture3" src="https://cdn.discordapp.com/attachments/1007384247159492688/1135983787319234587/intrepid_-_32__date.gif">
+</div>
+
+<div class="pa_1">
+                                                                                                                              
+    <div class="item_1">
+                                                                                                                           
+            Sorciers et humains partagent leurs quotidiens et se préparent à commémorer la fin de la dernière grande vague de persécution sorcière. Cet événement tant attendu se tiendra lors de l’Équinoxe de septembre et toutes les communautés et covens du monde entier seront invités à célébrer ensemble les festivités.                                                                                                                                                           
+                                                                                                                             
+    </div>  
+    <div class="onglet_js">
+            <div class="item_2">
+
+                <div class="titre_1">
+                    Admin & Fonda
+                </div>
+                                                                                                                
+                <div class="onglets_pa">
+                                                                                                        
+                    <div class="boutons_pa"> 
+                                                                                                                    
+                        <div class="lab onglet1 visible">
+                                                                        <img class="small_img" src="https://cdn.discordapp.com/attachments/1007384247159492688/1135983557555273859/Circle_Education_Badge_Logo_7.png" />                                                  
+                        </div>
+                                                                                                                    
+                        <div class="lab onglet2">
+                                                                        <img class="small_img" src="https://cdn.discordapp.com/attachments/1007384247159492688/1135983557941145751/Circle_Education_Badge_Logo_8.png" />                                                        
+                        </div>
+                                                                                                                    
+                        <div class="lab onglet3">
+                                                                    <img class="small_img" src="https://cdn.discordapp.com/attachments/1007384247159492688/1135983558335418379/Circle_Education_Badge_Logo_9.png" />                                                        
+                        </div>
+                                                                                                                                                                                            
+                    </div>
+                                                                                                                                                                                                    
+                </div>
+                                                                                                                        
+            </div>
+            
+        <div class="interne item_3">
+                                                                                                    
+            <div class="contenu onglet1 visible png_admin1">
+                <img class="png_admin" src="https://cdn.discordapp.com/attachments/1007384247159492688/1135983555751723069/Circle_Education_Badge_Logo_3.png">
+                                                        
+                <div class="titre_name">
+                    <a class="megrim" href="https://erigoconsortium.forumactif.com/u1">ADMIN</a><br>  
+                    Alexander Ward                                    
+                </div>
+                                                                                            
+            </div>
+                                                                                                        
+            <div class="contenu onglet2 png_admin2">
+                <img class="png_admin" src="https://cdn.discordapp.com/attachments/1007384247159492688/1135983556145983620/Circle_Education_Badge_Logo_4.png">                                        
+                
+                <div class="titre_name">
+                    <a class="megrim" href="https://erigoconsortium.forumactif.com/u4">ADMIN</a><br>
+                    Ciaran Foley                           
+                </div>
+                                                                                    
+            </div>
+                                                                                                        
+            <div class="contenu onglet3 png_admin3>
+                <img class="png_admin" src="https://cdn.discordapp.com/attachments/1007384247159492688/1135983555328094318/Circle_Education_Badge_Logo_2.png">                                          
+                <div class="titre_name">
+                    <a class="megrim" href="https://erigoconsortium.forumactif.com/u3">ADMIN</a><br>
+                    Lyssia                       
+                </div>
+                                                                                
+            </div>
+                                                                                                                                                                
+        </div>
+    </div>  
+
+    <div class="item_4">
+                                                                     
+        <div class="link_pa">
+            <a href="https://erigoconsortium.forumactif.com/t29-annexe-2-regles-du-jeu#95">Reglement</a>                                      
+        </div>
+                                                                   
+        <div class="link_pa">
+            <a href="https://erigoconsortium.forumactif.com/f3-in-quarto-reglementaire">Annexes</a>                                      
+        </div>
+                                                                 
+        <div class="link_pa">
+            <a href="https://erigoconsortium.forumactif.com/t35-news-et-mises-a-jour-du-forum#123">News</a>                                  
+        </div>
+                                                                 
+        <div class="item_5">
+            <a href="https://discord.gg/DG7GzSVy"><img  class="item_5" src="https://cdn.discordapp.com/attachments/1007384247159492688/1135983615449252022/Discord.jpg"> </a>                                 
+        </div>
+                                                           
+        <div class="link_pa">
+            <a href="https://erigoconsortium.forumactif.com/t38-bottin-des-personnages#126">Bottin</a>                                      
+        </div>
+                                                                 
+        <div class="link_pa">
+            <a href="https://erigoconsortium.forumactif.com/f6-mysteries-market-place">Boutique</a>                                  
+        </div>
+                                                                 
+        <div class="link_pa">
+            <a href="https://erigoconsortium.forumactif.com/t40-wiccapedia#128">Wiccapedia</a>                                      
+        </div>
+                                                                                       
+    </div>
+                                                                                                                                                                                                                               
+    <div class="gif_pa">
+                                                                                                                                                               
+        <div class="img_pa">
+            <img class="paimg" src="https://signavatar.com/73221_s.gif" />                                                                                                      
+            <div class="overflow">
+                                                                                                                                                                        
+                <div class="container_txt">
+                    Plus d'informations à venir !                                                                          
+                </div>
+                                                                                                                                                                            
+            </div>
+                                                                                                                                                                                                                                                                                                                
+        </div>
+                                                                                                                                                               
+    </div>
+                                                                                                                                                                                                                                                                                                                              
+    <div class="item_6">
+                                                                                                                                                                       
+        <div>
+            <a href="LIEN LISTE PARTENAIRES" target="_blank"><w>NOS PARTENAIRES &</w></a> <a href="LIEN SUJET DEMANDES" target="_blank"><y>DEMANDES</y></a> <br />                   <select onchange="location = this.value" class="select_pa">  <option selected="selected">NOS PARTENAIRES D'AILLEURS</option>  <option value="LIEN FORUM">FORUM</option> </select>                                                                                                                                                                                                                                                                                                                                                                                                                                 
+        </div>
+                                               
+    </div>
+
+    <div class="item_7">
+
+        <div class="titre_1">
+            Votez
+        </div>
+                                                                                           
+        <a href="http://www.root-top.com/topsite/obsession27/in.php?ID=27113">
+            <img class="small_img" src="https://cdn.discordapp.com/attachments/1007384247159492688/1135983611884093511/Circle_Education_Badge_Logo_10.png" />
+        </a>
+                                                          
+                                                                                    
+        <a href="http://www.root-top.com/topsite/bazzart/in.php?ID=3018">
+            <img class="small_img" src="https://cdn.discordapp.com/attachments/1007384247159492688/1135983612429340785/Circle_Education_Badge_Logo_11.png" />
+        </a>
+                                                                
+                                                                                                 
+        <a href="http://www.root-top.com/topsite/melu/in.php?ID=5176">
+            <img class="small_img" src="https://cdn.discordapp.com/attachments/1007384247159492688/1135983612987199619/Circle_Education_Badge_Logo_12.png" />
+        </a>
+                                                                                                        
+    </div>
+       
+    <div class="item_8">
+      page d'accueil originale par ICE AND FIRE. (2021)  
+    </div>
+    
+</div>
