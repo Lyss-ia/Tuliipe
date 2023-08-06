@@ -1,22 +1,6 @@
 
  /*-- general customisation --*/
  
-.members_body {
-    font-style:normal; 
-    font-family:'Open Sans', helvetica, sans-serif; 
-    font-size:10px; 
-    font-weight:400;
-    text-decoration:none; 
-    line-height:180%; 
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased;
-    -webkit-animation: fadein 1.5s;
-    -moz-animation: fadein 1.5s;
-    -o-animation: fadein 1.5s; 
-    animation: fadein 1.5s;
-}
- 
 .members_a {
     text-decoration:none;
     color:var(--background)!important; /* links colour */
@@ -128,7 +112,6 @@ i, em { font-style:italic; }
     height:125px; /* image height */
     margin:20px;
     float:left;
-    font-size:1.1em;
 }
  
 .members_name {
