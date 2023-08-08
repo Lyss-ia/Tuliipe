@@ -11,14 +11,14 @@
 /*-- header --*/
  
 .members_header {
-    margin:0 auto 50px;
+    margin:0 auto;
     width:95%;
     text-align:center;
 }
 
 .letters_links{
     margin: auto;
-    margin-top:1em;
+    margin-top:1.5em;
     text-align: center;
     font-family: Arial;
     line-height: 16px;
