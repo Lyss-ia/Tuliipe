@@ -1,80 +1,18 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
  /*-- general customisation --*/
  
 .members_a {
     text-decoration:none;
-    color:var(--background)!important; /* links colour */
-    transition-duration: 0.6s;  
-    -moz-transition-duration: 0.6s;  
-    -webkit-transition-duration: 0.6s;  
-    -o-transition-duration: 0.6s;
+    font-size: 10px;
 }   
- 
-.members_a:hover {
-    color:#bad0f1; /* links hover colour */
-    cursor:pointer;
-    transition-duration: 0.6s;  
-    -moz-transition-duration: 0.6s;  
-    -webkit-transition-duration: 0.6s;  
-    -o-transition-duration: 0.6s;
-}
- 
-b, strong { font-weight:700; color:#444; }
-i, em { font-style:italic; }
- 
-.members_hover .members_hovertext {
-    width:auto;
-    background:#bad0f1;
-    color:#fff; /* sidebar links text colour */
-    font-size:10px; /* sidebar links font size */
-    text-transform:uppercase;
-    font-weight:700;
-    letter-spacing:0.5px;
-    padding:3px 7px 3px 7px;
-    position:absolute;
-    margin-top:-3px;
-    margin-left:40px; 
-    z-index:999!important;
-    opacity:0;
-    transition:opacity 0.6s;
-}
- 
-.members_hover:hover .hovertext { opacity:1; transition:opacity 0.6s; }
- 
-.members_hover .hovertext::after {
-    content:" ";
-    position:absolute;
-    top:50%;
-    right:100%;
-    margin-top:-8px;
-    border-width:8px;
-    border-style:solid;
-    border-color:transparent #bad0f1 transparent transparent; /*link hover colour */
-}
- 
+
 /*-- header --*/
  
 .members_header {
     margin:0 auto 50px;
     width:95%;
     text-align:center;
-}
- 
-#members_icon {
-    margin:0 auto;
-    width:50px;
-    height:50px;
-}
- 
-#members_icon img { width:50px; height:50px; border-radius:100%; }
- 
-#members_title {
-    margin:20px 0px 5px 0px;
-    font-size:16px;
-    font-weight:700;
-    text-transform:uppercase;
-    letter-spacing:1px;
-    color:#000; /*title colour*/
 }
 
 .letters_links{
@@ -108,83 +46,49 @@ i, em { font-style:italic; }
 }
  
 .members_box {
-    width:300px; /* image width x 2 + 30px */
-    height:125px; /* image height */
     margin:20px;
     float:left;
     font-size:0.8em;
+    color: #C79944;
+    position:relative;
+    font-family: 'Open Sans', sans-serif;
 }
+ 
+.members_group {
+    line-height:30px;
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: top left;
+    top: 0px;
+    left: 170px;
+    text-transform: uppercase;
+    font-size:1.5em;
+}
+
+.members_info{
+    width:135px;
+    text-align:center;
+}
+
  
 .members_name {
-    width:30px;
-    height:135px; /* image height */
-    position:absolute;
-    line-height:30px;
-    transform:rotate(90deg);
-    transform-origin:top left;
-}
- 
-.members_name h1 {
-	width:105px; /* image height - 20px */
-    float:right; 
-    margin-top:-30px; 
-    margin-right:-95px;
-	padding-left:20px;
-    transform:rotate(-180deg); 
-    transform-origin:center center;
-    text-align:left;
     text-transform:uppercase;
-    font-size:12px;
-    font-weight:700;
-    letter-spacing:0.5px;
+    font-family: 'Megrim', cursive;
+    font-size: 15px;
 }
  
 .members_box img {
-    position:absolute;
     width:135px; /* image width */
     height:135px; /* image height */
-    margin-left:30px;
     object-fit: cover;
+    border: solid 2px #C79944;
 }
  
-.members_url {
-    position:absolute;
-    margin-left:165px;
-    height:25px;
-    width:125px;
-    line-height:25px;
-    text-align:center;
-    background:#fff; /*url background colour */
-    font-style:italic;
-    font-weight:600;
-    border-bottom:1px solid #eee;
-	z-index:9;
-}
- 
-.members_desc {
-    position:absolute;
-    margin-left:155px;
-    margin-top:25px;
-    width:135px;
-    height:110px;
-}
- 
-.members_t {
-    text-align:center;
-    line-height:160%;
-    margin-top:10px;
-    margin-left:10px;
-    margin-bottom:10px;
-    padding-right:10px;
-    max-height:80px;
-    overflow-Y:scroll;
-    margin-top:calc(20% + 25px);
-    transform:translateY(-50%);
-}
  
 /*-- credit - DO NOT TOUCH --*/
  
 .members_credit a {
     text-align:right;
+    font-size: 12px;
 }
  
