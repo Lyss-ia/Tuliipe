@@ -47,7 +47,7 @@
 }
  
 .members_box {
-    margin: 30px 30px 0px 0px;
+    margin: 40px 40px 0px 40px;
     float:left;
     font-size:0.8em;
     color: #C79944;
@@ -68,6 +68,7 @@
 }
 
 .members_info{
+    margin-top:0.5em;
     width:135px;
     text-align:center;
 }
@@ -77,6 +78,7 @@
     text-transform:uppercase;
     font-family: 'Megrim', cursive;
     font-size: 15px;
+    font-weight: bold;
 }
  
 .members_box img {
