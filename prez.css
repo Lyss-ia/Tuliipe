@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 
-body{background-color:#1C171D;}
 #arc_default{
     --arc_color:rgb(240, 221, 199);
 }
