@@ -103,14 +103,14 @@
     border-bottom: solid 3px;
 }
 
-h3{
+.prez_text h3{
     color:#FFD69E; 
     font-size: 1em;
     text-transform: uppercase;
     margin-top:0.3em;
 }
 
-td{
+.prez_global td{
     height: 150px;
     overflow-y: auto;
     overflow-x: hidden;

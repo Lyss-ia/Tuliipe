@@ -1,0 +1,350 @@
+<script src="{JQUERY_ROOT}json/jquery.json-1.3.min.js" type="text/javascript"></script>
+<style>
+
+
+:root {
+    --accc1: #FFD69E;
+    --accc2:#C79944;
+    --black: #000;
+    --border: #F7D7C3;
+    --background: #1c171d;
+    --degrag: #C79944;
+    --acc3:#FFD69E;  
+    --white: #fff;
+    --border1: 1px solid #F7D7C3;
+    --background1: #f1f1f1;
+    --background2: #1c171d;
+    --background3: #000000;
+    --degrade: linear-gradient(-45deg,#FFD69E,#C79944);
+    --gr1: rgb(131, 72, 133);
+    --gr2: rgb(188, 143, 143);
+    --gr3: rgb(127,255,212);
+    --gr4: rgb(142,52,49);
+    --gr5: rgb(178, 211, 194);
+    --fontcolor: #e1d9c3;
+}
+
+    /*PROFILS*/
+
+
+/***************************** AFFICHAGE DUN PROFIL *****************************/
+
+/***** DIV PRINCIPAL CONTENANT LE PROFIL *****/
+
+.spro_1 {
+    background: var(--background2);
+    padding: 10px;
+    border-radius: 10px;
+    margin:20px 0;
+}
+
+/***** AFFICHAGE Ãƒâ‚¬ GAUCHE (rang et avatar) *****/
+
+/*Div Ãƒ  gauche qui contient avatar et rang*/
+.spro_2 {
+    background: var(--background);
+    border: var(--border1);
+    margin: 0 7px 0 0;
+    border-radius: 10px;
+    width: 222px;
+    box-sizing: border-box;
+}
+
+/*Div qui contient le pseudo et le rang*/
+.spro_rang {
+    display: flex;
+    background: var(--background2);
+    flex-wrap: wrap;
+    margin: 0 0 7px;
+    border-radius: 10px 30px 30px 10px;
+}
+
+/*Div qui contient le pseudo*/
+.spro_username {      
+    padding: 0.30em 0;
+    margin: 0 6px;
+    border-bottom: var(--border1);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    box-sizing: border-box;
+    width: 200px;
+}
+
+/*Div contenant le rang et limage*/
+.spro_rang2 {
+    width: 200px;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+/*Styling de limage*/
+.spro_rang2 img {        
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    background: var(--background2);
+    border: var(--border1);
+    margin: -31px 0 0 7px;
+}
+
+/*Div contenant lavatar*/
+.spro_avatar {
+        background: var(--background2);
+    padding: 6px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/*Styling de lavatar*/
+.spro_avatar img {border-radius: 10px;
+    max-width: 200px;}
+
+
+/***** AFFICHAGE Ãƒâ‚¬ DROITE (derniere visite, images contact, infos, feuille perso) *****/
+
+/*Div contenant le tout*/
+.spro_3 {
+    margin: 0 0 0 7px;
+    width: 100%;
+
+}
+
+/*Div contenant les infos et la feuille de perso*/
+.spro_5 {display: flex;}
+
+/*Div contenant lastvisit, infos, etc.*/
+.spro_6 {
+  width: 70%;
+  margin: 0 7px 0 0;
+  border: var(--border1);
+  border-radius: 10px;
+}
+
+/*Div de la derniere connexion*/
+.spro_lastvisit {      margin: 0 0 7px;
+    background: var(--background);
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--accc2);
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 24px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/*Div contenant contact et les infos*/
+.spro_profile {    
+    padding: 10px;
+}
+
+/*Div contenant le en ligne et les images contact*/
+.spro_contact {      border-bottom: var(--border1);
+    padding: 0 0 7px;
+    margin: 0 0 7px;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-evenly;
+    font-weight: 600;
+    color: var(--accc1);
+    font-size: 14px;
+    align-items: center;
+}
+
+/*Styling images contact*/
+.spro_contact img {
+width: 23px;
+    background: var(--background);
+    padding: 3px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+/*Div contenant toutes les infos*/
+.spro_info {          height: 292px;
+    overflow: auto;}
+
+.spro_info img {
+max-width:200px;
+  border-radius:10px;
+}
+
+/*Styling et mise en page des infos*/
+.left-box {
+width: 100%;
+}
+
+dl.details dt {
+    text-align: left;
+    width: 12em;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--accc2);
+}
+
+dl.details dd {
+    margin: 0 0 .5em 12em;
+  font-size:14px;
+  line-height:22px;
+}
+
+/*Div contenant la feuille de personnage*/
+.spro_4 {    width: 30%;
+    border: var(--border1);
+    padding: 10px;
+    box-sizing: border-box;
+  border-radius: 10px;}
+
+/*Div contenant les liens en bas*/
+.spro_links {    display: flex;
+    margin: 7px 0 0;
+}
+
+/*Styling des liens*/
+.spro_links a {
+        width: 100%;
+    line-height: 29px;
+    background: var(--background);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.spro_links a:nth-child(2) {
+    margin:0 7px;
+}
+
+/*Div titre feuille de personnage*/
+.spro_frpgtitle {
+    color: var(--acc3);
+    font-size: 12px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 0.15em;
+}
+
+/*Div avec scroll pour feuille personnage*/
+.spro_frpg {
+    margin: 7px 0 0;
+    height: 335px;
+    overflow: auto;
+    border-top: var(--border1);
+    box-sizing: border-box;
+    padding: 10px 0 0;
+}
+
+/*Styling des champs*/
+frpg {font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--accc1);
+    text-transform: uppercase;
+  font-size: 13px;}
+
+/*Styling oÃƒÂ¹ le texte se trouve*/
+.spro_frpg textarea {
+    width: 100%!important;
+    height: 93px!important;
+    border: var(--border1);
+    border-radius: 10px;
+    margin: 10px 0 12px;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.inputbox:hover {
+    border: var(--border1);
+}
+
+</style>
+<div class="spro_1">
+    <div class="spro_lastvisit">
+        {LAST_VISIT_TIME}
+    </div>
+    <div class="spro_3">
+        <div class="spro_5">
+            <div class="spro_2">
+                <div class="spro_avarang">
+                    <div class="spro_rang">
+                        <div class="spro_username">
+                            {USERNAME}
+                        </div>
+                    </div>
+                    <div class="spro_avatar">
+                        <span id="avatar_membre">{AVATAR_IMG}</span>
+                    </div>
+                    <div class="spro_rang2">
+                        {POSTER_RANK}
+                    </div>
+                </div>
+            </div>
+            <div class="spro_6">
+                <div class="spro_profile">
+                    <div class="spro_contact">
+                        <!-- BEGIN switch_show_status -->
+                        {USER_ONLINE}
+                        <!-- END switch_show_status -->
+                        <!-- BEGIN contact_field -->
+                        {contact_field.CONTENT}
+                        <!-- END contact_field -->
+                    </div>
+                    <div class="spro_info">
+                <!-- BEGIN switch_dhow_mp -->
+                 <table>
+                <tr>
+ <td class="pro_field">MESSAGES PRIVÉS: </td>
+                    <td class="prof_info">{PRIVATE_MSG}</td>
+                </tr>
+                    </table>
+                <!-- END switch_dhow_mp -->
+
+                <!-- BEGIN profile_field -->
+              <table>
+<tr id="field_id{profile_field.ID}">
+ <td class="pro_field">{profile_field.LABEL} &nbsp;</td>
+ <td class="prof_info">{profile_field.CONTENT}</td>
+ </tr>
+              </table>
+                <!-- END profile_field -->
+                    </div>
+                </div>
+            </div>
+            <div class="spro_4">
+                <div class="spro_frpgtitle">
+                    FEUILLE DE PERSONNAGE
+                </div>
+                <div class="spro_frpg">
+                    <!-- BEGIN switch_rpg -->
+                    <!-- BEGIN rpg_fields_left -->
+                  <frpg>{switch_rpg.rpg_fields_left.F_NAME} :</frpg>
+                    {switch_rpg.rpg_fields_left.F_VALUE_NEW}
+                    <!-- END rpg_fields_left -->
+
+                    <!-- BEGIN rpg_fields -->
+                    <frpg>{switch_rpg.rpg_fields.F_NAME} :</frpg>
+                    {switch_rpg.rpg_fields.F_VALUE_NEW}
+                    <!-- END rpg_fields -->
+
+                    <!-- END switch_rpg -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="spro_links">
+        <a rel="nofollow" href="/st/{PUSERNAME}">SUJETS OUVERTS</a>
+        <a rel="nofollow" href="/sta/{PUSERNAME}">{L_TOPICS}</a>
+        <a rel="nofollow" href="/spa/{PUSERNAME}">{L_POSTS}</a>
+    </div>
+
+</div>
+
+{ADMINISTRATE_USER}{BAN_USER}
