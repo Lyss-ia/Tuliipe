@@ -32,7 +32,7 @@
     padding: 1% 20px;
     margin: 0;
     font-size: 0.85em;
-    border-bottom: solid;
+    border-bottom: solid var(--arc_color);
 }
 
 .title_common_L{
