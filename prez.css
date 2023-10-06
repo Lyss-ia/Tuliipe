@@ -99,6 +99,10 @@
     padding: 1em 0;
 }
 
+.prez_text_S h3:first-child {
+    margin-top: 0px;
+}
+
 #prez_end{
     border-bottom: solid 3px;
 }
