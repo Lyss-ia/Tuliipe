@@ -22,6 +22,10 @@
     --arc_color: rgb(178, 211, 194);
 }
 
+#lycans{
+    --arc_color: rgb(203, 104, 67);
+}
+
 .content_common{
     margin: auto;
     width: 95%;
