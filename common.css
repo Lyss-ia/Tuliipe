@@ -50,11 +50,12 @@
 
 .big_title{
     text-align:right;
-    font-size: 28px;
+    font-size: 28px!important;
     margin-right:2em;
 }
 
 h2{
+    font-size: 20px;
     text-transform:uppercase;
     color: var(--colortext);
 }
