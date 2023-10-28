@@ -90,6 +90,13 @@
     padding: 1em 0;
 }
 
+.prez_text img {
+    border-width: 0;
+    width: 200px;
+    height: 320px;
+    object-fit: cover;
+}
+
 .prez_text_S{
     margin: 10px 0px 0px 10px;
     line-height: 20px;
