@@ -1,0 +1,269 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --accc1: #FFD69E;
+    --accc2:#C79944;
+    --black: #000;
+    --border: #F7D7C3;
+    --background: #1c171d;
+    --degrag: #C79944;
+    --acc3:#FFD69E;  
+    --white: #fff;
+    --border1: 1px solid #F7D7C3;
+    --background1: #f1f1f1;
+    --background2: #1c171d;
+    --background3: #000000;
+    --degrade: linear-gradient(-45deg,#FFD69E,#C79944);
+    --gr1: rgb(131, 72, 133);
+    --gr2: rgb(188, 143, 143);
+    --gr3: rgb(127,255,212);
+    --gr4: rgb(142,52,49);
+    --gr5: rgb(178, 211, 194);
+    --gr6: rgb(203, 104, 67);
+    --fontcolor: #e1d9c3;
+    --background-light:#5c3957;
+    --text: #333;
+    --red: #990000;
+    --link: #000;
+    --light: #FFF;
+    --lighter: #fafafa;
+    --grey: var(--background);
+    --greyer: var(--background);
+    --gap-size: 16px;
+    --ease: cubic-bezier(0.4, 0.0, 0.2, 1);
+    --ease-bounce: cubic-bezier(0.43, 0.09, 0.38, 2.56);
+  
+}
+/* DEBUT CSS QUEER */
+    html{
+        background-color: var(--background);
+        color: var(--fontcolor);
+    }
+    /*QEEL*/
+    
+/* DEBUT CSS QUEER */
+
+.qeel_container {      
+    background: var(--background2);
+    margin: 10px 0 0;
+    border-radius: 10px;
+    padding: 10px 10px 7px;
+}
+    
+    
+.qeel_grid {
+    display: grid;
+    grid-gap: 7px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+}
+
+.qeel_title{
+    border-bottom: 1px solid var(--fontcolor);
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 4px;
+    margin-top: 0;
+    font-size: 1.4em;
+}
+
+.qeel_content{
+    overflow: overlay;
+}
+
+.qeel_resume_content{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+/*balise nb inscrits/messages et membres connectes*/
+.qeel_kindofusers_online {   
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    overflow: overlay;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url(https://cdn.discordapp.com/attachments/1007384247159492688/1007386140074057739/tarot_0035_star.png?ex=654d41f4&is=653accf4&hm=87ff9d2…&);
+    background-size: 27%;
+    background-repeat: no-repeat;
+    font-size: 11px;
+    padding: 4px;
+}
+
+    /*balise membres connectes*/
+.qeel_whosthere {    
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    overflow: overlay;
+    border-top: var(--border1);
+    padding: 5px;
+    text-align: justify;
+    text-transform: none;
+    width: 97%;
+    overflow:overlay;
+}
+    
+.qeel_whosthere br {
+    display:none!important;
+}
+
+.qeel_img{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-image: url(https://cdn.discordapp.com/attachments/839269329190912041/1169293222158290954/foot.gif?ex=6554e02c&is=65426b2c&hm=d3ea6db7cfdd8565d2eac5d5a67865c8a43acf4e4c2800d7ca347407dfad456d&);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+}
+
+.qeel_stats{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-size: 11px;
+    padding: 4px;
+    letter-spacing: 1px;
+    background-image:url(https://media.discordapp.net/attachments/1007384247159492688/1007385558382817331/celestial_0021_element.png?ex=654d4169&is=653acc69&hm=7821c7fb06dd16d14b4056ea97a10f87c94052019c4c93ec2c4eaafd5e4f9cd0&=&width=1290&height=655);
+    background-size: 20%;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+    
+.qeel_stats strong {
+    font-weight:500;
+}
+
+.qeel_lastpostscontent{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    overflow: hidden;
+}
+
+.qeel_lastpostscontent iframe{
+    background-image: none!important;
+}
+
+.module .inner .h3 {
+    display: none;
+}
+
+body.external-module {
+    background-image: none;
+    background-color: var(--background);
+}
+
+.qeel_last24{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    border-top: var(--border1);
+    overflow:overlay;
+}
+    
+/*balise txt libre/credits*/
+.qeel_cred {   
+    text-align: center;
+    margin-top: 4px;
+}
+
+.qeel_iaf {    
+    width: 100%;
+    border-top: 1px solid #F7D7C3;
+    margin: 7px 0 0;
+    padding: 7px 0 0;
+    text-align: center;
+    font-size: 9px;
+    letter-spacing: 1px;
+    color:  #F7D7C3;
+}
+</style>
+
+
+<!-- BEGIN disable_viewonline -->
+<div class="qeel_container">
+    <div class="qeel_grid">
+        <div class="qeel_resume_content">
+            <h3 class="qeel_title">Statistiques</h3> 
+            <div class="qeel_content">
+                Nos membres ont posté un total de <span id="total_messages">{TOTAL_POSTS}</span> messages. <br><br>
+                <script type="text/javascript">document.getElementById('total_messages').innerHTML = document.getElementById('total_messages').innerHTML.replace(/Nos membres ont posté un total de /, "");
+                </script>
+                <script type="text/javascript">document.getElementById('total_messages').innerHTML = document.getElementById('total_messages').innerHTML.replace(/messages/, "");
+                </script>
+
+                Nous avons <span id="total_inscrits">{TOTAL_USERS}</span> membres inscrits ! <br>
+                <script type="text/javascript">document.getElementById('total_inscrits').innerHTML = document.getElementById('total_inscrits').innerHTML.replace(/Nous avons/, "");
+                </script>
+                <script type="text/javascript">document.getElementById('total_inscrits').innerHTML = document.getElementById('total_inscrits').innerHTML.replace(/membres enregistrés/, "");
+                </script>
+                <script type="text/javascript">document.getElementById('total_inscrits').innerHTML = document.getElementById('total_inscrits').innerHTML.replace(/membre enregistré/, "");
+                </script>
+                L'utilisateur enregistré le plus récent est <span id="dernier_membre">{NEWEST_USER}, bienvenue /o</span><br>
+                <script type="text/javascript">document.getElementById('dernier_membre').innerHTML = document.getElementById('dernier_membre').innerHTML.replace(/L'utilisateur enregistré le plus récent est/, "");
+                </script>
+            </div>
+        </div>
+
+        <div class="qeel_kindofusers_online">
+            <span id="nbutilisateurs">
+                {TOTAL_USERS_ONLINE}
+                <script type="text/javascript">document.getElementById('nbutilisateurs').innerHTML = document.getElementById('nbutilisateurs').innerHTML.replace(/Il y a en tout/, "");
+                </script>
+                <script type="text/javascript">document.getElementById('nbutilisateurs').innerHTML = document.getElementById('nbutilisateurs').innerHTML.replace(/utilisateurs en ligne/, "âmes vagabondes");
+                </script>
+                <script type="text/javascript">document.getElementById('nbutilisateurs').innerHTML = document.getElementById('nbutilisateurs').innerHTML.replace(/utilisateur en ligne/, "âme vagabonde");
+                </script>
+                <script type="text/javascript">document.getElementById('nbutilisateurs').innerHTML = document.getElementById('nbutilisateurs').innerHTML.replace(/::/, "<br/>");
+                </script>
+            </span>   
+        </div>
+        <div class="qeel_whosthere">
+                    {LOGGED_IN_USER_LIST}
+        </div>
+        
+        <div class="qeel_img" ></div>
+        <div class="qeel_stats">
+            Actuellement nous comptons<br> 
+        3 <span style="color:var(--gr5)">Dark Minders</span>, 4 <span style="color:var(--gr1)">Sorciers</span>, 1 <span style="color:var(--gr4)">Descendant</span>, 1 <span style="color:var(--gr2)">Fée</span>, 1 <span style="color:var(--gr3)">Sirène</span> et 1 <span style="color:var(--gr6)">Lycan</span>.  
+        </div>
+
+        <div class="qeel_lastpostscontent">
+            <h3 class="qeel_title">Derniers sujets</h3>
+            <div class="qeel_lastposts">
+                <iframe frameborder="0"scrolling="no" marginheight="0" loading="lazy" style="width:100%;" height="245" src="https://erigoconsortium.forumactif.com/embed?h=170&nbt=20&d=11000&name=." ></iframe> 
+            </div>
+        </div>
+        <div class="qeel_last24">
+            <span id="vingtquatre">
+                {L_CONNECTED_MEMBERS}
+                <script type="text/javascript">document.getElementById('vingtquatre').innerHTML = document.getElementById('vingtquatre').innerHTML.replace(/Membres connectés au cours des 24 dernières heures/, "<w>MEMBRES PRÉSENTS CES DERNIÈRES 24 HEURES</w>");
+                </script>
+            </span>
+        </div>
+</div>
+
+<div class="qeel_iaf">
+    <div class="qeel_cred">
+        © Le forum est l'entière propriété de l'équipe Administratrive (Andiexcv, Lyssia et Dr Watson).<br> 
+            Toute reproduction totale ou partielle de son contenu est totalement interdite.<br>
+            Design by Lyssia et Dr Watson. <br>
+            Codage by Ice and fire et Lyssia. 
+    </div>
+</div>
+<!-- END disable_viewonline -->
