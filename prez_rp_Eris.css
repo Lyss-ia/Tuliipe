@@ -6,7 +6,7 @@
     background-size: cover;
     border:solid 1px beige;
     color: black;
-    font-size:14px!important;
+    font-size:11px!important;
 }
 
 .eris_text{
@@ -40,8 +40,8 @@
     font-family: 'Great Vibes', cursive;
     text-align: center;
     position: relative;
-    font-size: 2em;
-    margin-top: -20px;
+    font-size: 3em;
+    top: -14%;
     margin-bottom: 0;
     background-color: beige;
     padding-bottom: 0.2em;
@@ -51,10 +51,12 @@
 
 .eris_p{
     text-align: justify;
-    padding: 2em;
+    padding: 0 2em;
     height: 350px;
     overflow: overlay;
     margin: 0;
+    position: relative;
+    top: -11%;
 
 }
 
