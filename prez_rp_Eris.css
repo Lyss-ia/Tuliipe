@@ -1,16 +1,16 @@
 .eris_content{
-    min-height: 700px;
+    min-height: 900px;
     width: 85%;
     margin:auto;
     background-repeat: no-repeat;
     background-size: cover;
     border:solid 1px beige;
     color: black;
-    font-size:14px;
+    font-size:14px!important;
 }
 
 .eris_text{
-    height: 700px;
+    height: 900px;
     margin:auto;
     background-color: #f5f5dc77;
     position: relative;
@@ -18,7 +18,7 @@
 
 .eris_bw_img{
     width: 50%;
-    height: 100px;
+    height: 200px;
     margin-top: 3%;
     margin-left: 5%;
     object-fit: cover;
@@ -28,13 +28,11 @@
 
 .eris_img{
     width: 50%;
-    height: 100px;
-    margin-top: 10px;
-    margin-left: 10px;
+    height: 200px;
     object-fit: cover;
     position: relative;
-    top: -40px;
-    right: -42%;
+    top: -70px;
+    right: -45%;
     border:solid 1px beige;
 }
 
@@ -46,7 +44,9 @@
     margin-top: -20px;
     margin-bottom: 0;
     background-color: beige;
-    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-top: 0.5em;
+    color:black!important;
 }
 
 .eris_p{
@@ -87,10 +87,10 @@ margin: 0;
 }
 
 #eris_when{
-    text-align: center;
+text-align: center;
 width: 35%;
 position: absolute;
-top:19%;
+top:30%;
 left: 5%;
 margin: 0;
 }
