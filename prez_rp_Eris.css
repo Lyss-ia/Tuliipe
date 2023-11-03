@@ -31,7 +31,7 @@
     height: 200px;
     object-fit: cover;
     position: relative;
-    top: -70px;
+    top: -130px;
     right: -45%;
     border:solid 1px beige;
 }
@@ -87,10 +87,10 @@ margin: 0;
 }
 
 #eris_when{
-text-align: center;
-width: 35%;
-position: absolute;
-top:30%;
-left: 5%;
-margin: 0;
+    text-align: center;
+    width: 35%;
+    position: absolute;
+    top: 26%;
+    left: 5%;
+    margin: 0;
 }
