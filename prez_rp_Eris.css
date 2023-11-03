@@ -1,11 +1,12 @@
 .eris_content{
     min-height: 700px;
-    width: 70%;
+    width: 85%;
     margin:auto;
     background-repeat: no-repeat;
     background-size: cover;
     border:solid 1px beige;
     color: black;
+    font-size:14px;
 }
 
 .eris_text{
