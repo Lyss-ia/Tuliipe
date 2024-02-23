@@ -9,7 +9,7 @@
 }
 
 #humans{
-    --arc_color : rgb(142,52,49);
+    --arc_color : rgb(60,78,181);
 }
 
 #default{
@@ -26,6 +26,10 @@
 
 #lycans{
     --arc_color: rgb(203, 104, 67);
+}
+
+#vampires{
+    --arc_color: rgb(142,52,49);
 }
 
 .content_common{
