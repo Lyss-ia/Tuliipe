@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+
 #wizards{
     --arc_color: rgb(131, 72, 133);
 }
@@ -32,11 +34,22 @@
     --border_arc : solid 10px var(--arc_color);
 }
 
+.members_name {
+    text-transform:uppercase;
+    font-family: 'Megrim', cursive;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 .title_common_S{
     padding: 1% 20px;
     margin: 0;
     font-size: 0.85em;
     border-bottom: solid var(--arc_color);
+}
+
+#bold{
+    font-weight: bold
 }
 
 .title_common_L{
@@ -52,6 +65,10 @@
     text-align:right;
     font-size: 28px!important;
     margin-right:2em;
+}
+
+.subtitle{
+    color: var(--accc1);
 }
 
 h2{
@@ -74,5 +91,20 @@ h2{
     font-size: 0.9em !important;
     padding: 0 20px;
     margin: 0;
+}
+
+.picture_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.picture_container .admin_prez{
+
+}
+
+.picture_container .admin_prez img{
+    border: 1px solid var(--accc2);
+
 }
 
