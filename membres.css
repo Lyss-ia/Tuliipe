@@ -41,8 +41,9 @@
  
 #members_content {
     margin:0 auto;
-    margin-bottom:200px;
     width:calc((300px + 40px + 2px) * 2);
+    height : 250px;
+    overflow:overlay;
     /* ((box width + 2*margin + 2*border width) * number of columns) */
 }
  
