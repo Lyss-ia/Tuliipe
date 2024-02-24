@@ -46,6 +46,22 @@
     overflow:overlay;
     /* ((box width + 2*margin + 2*border width) * number of columns) */
 }
+
+#members_content::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: var(--background);
+}
+
+#members_content::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.3);
+	background-color: #5c3957;
+        border: 0.2em solid rgba(0, 0, 0, 0);  /* Transparent border together with `background-clip: padding-box` does the trick */
+   	background-clip: padding-box;
+
+}
  
 .members_box {
     margin: 40px 40px 0px 40px;
@@ -73,8 +89,25 @@
     margin-top:0.5em;
     width:135px;
     text-align:center;
+    height:75px;
+    overflow:overlay;
 }
 
+.members_info::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: var(--background);
+}
+
+.members_info::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.3);
+	background-color: #5c3957;
+        border: 0.2em solid rgba(0, 0, 0, 0);  /* Transparent border together with `background-clip: padding-box` does the trick */
+   	background-clip: padding-box;
+
+}
  
 .members_name {
     text-transform:uppercase;
